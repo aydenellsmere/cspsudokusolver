@@ -1,15 +1,12 @@
-=================
 CSP Sudoku Solver
 =================
 This project implements several constraint satisfaction problem algorithms to solve Sudoku puzzles. It also analyzes the performance improvement (measured as the number of variable assignments) of more advanced versions of the basic backtracking search by adding forward checking and various heuristics including most constraining variable, most constrained variable and least constrained value.
 
-=================
 Prerequisites
 =================
 The algorithms in sudoku.py require numpy.
 The plotting code requires matplotlib and copy.
 
-=================
 Details
 =================
 
@@ -34,7 +31,6 @@ average_per_initial_value_count.png is one of the resulting plots from running s
 
 linear_regression.png is the resulting plot from running linear_regression_plot.py comparing the three versions of the Sudoku solver across all the examples in Problems.
 
-=================
 Acknowledgements
 =================
 The test problems are courtesy of the University of Waterloo
